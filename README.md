@@ -5,5 +5,6 @@ In order to package and run the Spark job locally, first you need to download al
 
 Then, run the following command in terminal:
 
+$ cd 
 $ sudo sbt package && spark-submit --class "DelayCalculator" --master local[*] target/scala-2.10/delaycalculator_2.10-1.0.jar input output
 
